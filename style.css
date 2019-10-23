@@ -1464,7 +1464,9 @@ blockquote {
     .site-footer .footer-navigation a {
       color: #969397;
       border-right: 1px solid #969397;
-      padding: 0 10px; }
+      padding: 0 10px;
+      font-size: 20px;
+      text-align: center; }
       .site-footer .footer-navigation a:last-child {
         border-right: none; }
       .site-footer .footer-navigation a:first-child {
