@@ -1,0 +1,1 @@
+!function($,n,i){function o(){var n=$(".circular-process"),i=n.innerWidth();n.height(i)}$(n).ready(function(){$(".mobile-navigation").append($(".main-navigation .menu").clone()),$(".menu-toggle").click(function(){$(".mobile-navigation").slideToggle()}),o()}),$(i).resize(function(){o()}),$(i).load(function(){})}(jQuery,document,window);

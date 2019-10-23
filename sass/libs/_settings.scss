@@ -1,0 +1,14 @@
+// Font family
+$primary-font      : "Bitter", "Merriweather", "Droid Serif", serif;
+
+// Color Variables
+$accent-color      : #9878a3;
+$primary-color     : $accent-color;
+$secondary-color   : #dcdcdc;
+
+$strong-color      : #59565a;
+$body-color        : #969397;
+
+// Grid system
+$grid-columns      : 12 !default;
+$grid-gutter-width : 30px !default;

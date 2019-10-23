@@ -1,0 +1,66 @@
+/*
+ * Footer Styles
+ */
+
+.site-footer{
+	background: $secondary-color;
+	padding: 70px 0;
+	@include em(14);
+
+	.footer-navigation{
+		margin-bottom: 20px;
+		a{
+			color: $body-color;
+			border-right: 1px solid $body-color;
+			padding: 0 10px;
+			&:last-child{border-right: none}
+			&:first-child{padding-left: 0}
+
+			&:hover{
+				color: $accent-color;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.social-links{
+		text-align: right;
+		a{
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			background: $accent-color;
+			display: inline-block;
+			color: white;
+			margin-left: 20px;
+			text-align: center;
+			padding-top: 10px;
+			@include rem(24);
+
+			&.facebook{
+				background-color: #204385;
+				&:hover{
+					background-color: lighten(#204385, 10%);
+				}
+			}
+			&.twitter{
+				background-color:#2aa9e0;
+				&:hover{
+					background-color: lighten(#2aa9e0, 10%);
+				}
+			}
+			&.google-plus{
+				background-color:#d3492c;
+				&:hover{
+					background-color: lighten(#d3492c, 10%);
+				}
+			}
+			&.pinterest{
+				background-color:#ca2128;
+				&:hover{
+					background-color: lighten(#ca2128, 10%);
+				}
+			}
+		}
+	}
+}

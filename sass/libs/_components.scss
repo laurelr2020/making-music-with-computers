@@ -1,0 +1,20 @@
+/*
+ * Reusable Components Style
+ */
+
+.button{
+	background:#9878a3 linear-gradient(#9878a3,#82678c);
+	padding: 10px;
+	border-radius: 3px;
+	transition: .3s ease;
+	border: none;
+	color: white;
+	box-shadow: 0 1px 1px rgba(0,0,0,.3);
+
+	&:hover{ background: lighten(#9878a3,10%) }
+
+	&.orange{
+		background:#ffd164 linear-gradient(#ffd164,#ffbd64);
+		&:hover{ background: lighten(#ffd164,5%) }
+	}
+}
