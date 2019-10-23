@@ -1163,6 +1163,21 @@ form textarea {
     bottom: 5px;
     margin: auto;
     padding: 0 20px; }
+  .site-header .header-navigation {
+    margin-bottom: 20px;
+    text-align: center; }
+  .site-header .header-navigation a {
+    color: #f4f4f4;
+    border-right: 1px solid #969397;
+    padding: 0 10px; 
+    font-size: 24px;}
+  .site-header .header-navigation a:last-child {
+    border-right: none; }
+  .site-header .header-navigation a:first-child {
+    padding-left: 0; }
+  .site-header .header-navigation a:hover {
+    color: #9878a3;
+    text-decoration: underline; }
 
 .hero {
   text-align: center;
