@@ -1487,7 +1487,11 @@ blockquote {
       .site-footer .footer-navigation a:hover {
         color: #9878a3;
         text-decoration: underline; }
-  .site-footer .social-links {
+      .site-footer h3{
+          font-size: 1.17em;
+          margin: 0em 0;
+      }
+  /* .site-footer .social-links {
     text-align: right; }
     .site-footer .social-links a {
       width: 60px;
@@ -1516,4 +1520,4 @@ blockquote {
       .site-footer .social-links a.pinterest {
         background-color: #ca2128; }
         .site-footer .social-links a.pinterest:hover {
-          background-color: #e03e45; }
+          background-color: #e03e45; } */
