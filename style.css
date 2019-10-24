@@ -1499,6 +1499,9 @@ blockquote {
           font-size: 1.17em;
           margin: 0em 0;
       }
+      .site-footer p{
+        float: none;
+      }
   /* .site-footer .social-links {
     text-align: right; }
     .site-footer .social-links a {
