@@ -1174,13 +1174,16 @@ form textarea {
     border-right: 1px solid #969397;
     padding: 0 10px; 
     font-size: 24px;}
+  .site-header .home-page-header a{
+    font-size: 16px;}
   .site-header .header-navigation a:last-child {
     border-right: none; }
   .site-header .header-navigation a:first-child {
     padding-left: 0; }
   .site-header .header-navigation a:hover {
-    color: #9878a3;
+    color: #969397;
     text-decoration: underline; }
+  
 
 .hero {
   text-align: center;
