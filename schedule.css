@@ -1,3 +1,10 @@
+table, th, td {
+    border: 1px black solid;
+    border-collapse:collapse;
+    margin: auto;
+    padding: 10px;
+}
+
 td {
     vertical-align: top;
     padding: 5px;
@@ -34,4 +41,8 @@ p {
     vertical-align: middle;
     font-size: larger;
     margin: 0;
+}
+
+.current-week{
+    background-color: #dcdcdc;
 }
