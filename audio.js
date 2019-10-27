@@ -519,8 +519,8 @@ var Player = {
 
     tracks: [
         {
-            artist: "Kavinsky",
-            song: "Odd Look ft. The Weeknd",
+            artist: "",
+            song: "Star Wars -- Piano Melody",
             // url: "//katiebaca.com/tutorial/odd-look.mp3"
             url: "StarWars-KL-PianoMelody.mp3"
         }
